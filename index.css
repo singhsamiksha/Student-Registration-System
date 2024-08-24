@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+body{
+    padding: 50px;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+    border: 2px solid rgb(51, 51, 51);
+    border-radius: 20px;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: rgb(97, 171, 255);
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#recordDiv {
+    margin-top: 50px;
+    max-height: 400px; 
+    overflow-y: auto; 
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.record-item {
+    border-bottom: 1px solid #eee;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+.record-item button {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#recordDiv .record-item button:nth-last-child(2) {
+    background-color: rgb(119, 209, 119);
+}
+
+#recordDiv .record-item button:nth-last-child(1) {
+    background-color: rgb(209, 83, 83);
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+}
