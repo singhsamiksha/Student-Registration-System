@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: black;
+    background-color: white;
 }
 
 body{
@@ -13,7 +13,7 @@ body{
 h1{
     font-size: 2.5rem;
     margin-bottom: 30px;
-    color: rgb(255, 255, 255);
+    color: black;
     text-align: center;
 }
 
